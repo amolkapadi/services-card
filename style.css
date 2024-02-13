@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: azure;
+}
+
+.card-body {
+    position: relative !important;
+    width: 85% !important;
+    height: 160px;
+    background-color: white;
+    margin: auto;
+    top: -99px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    backdrop-filter: blur(9.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.card {
+    border: none !important;
+    cursor: pointer;
+    overflow: hidden;
+    background-color: azure;
+}
+
+.card-img-top {
+    transition: transform .5s ease;
+    border-radius: 10px;
+}
+
+.card-img-top:hover {
+    transform: scale(1.5) !important;
+}
